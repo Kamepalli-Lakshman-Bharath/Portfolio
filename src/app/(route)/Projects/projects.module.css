@@ -1,0 +1,27 @@
+.card {
+  box-shadow: #2a9d8f 0px 7px 29px 0px;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 100px;
+  column-gap: 50px;
+}
+.card_links {
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.link_image{
+  height: 100%;
+  width: 100%;
+}
+

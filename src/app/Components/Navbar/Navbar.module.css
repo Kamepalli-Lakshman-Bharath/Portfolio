@@ -1,0 +1,47 @@
+/* nav bar styles */
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  height: 70px;
+  align-items: center;
+  padding: 0px 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: none;
+  box-shadow: 0px 1px 10px  rgb(66, 32, 168,0.4);
+  background-color: var(--primary-color);
+  z-index: 1;
+}
+.name {
+  font-weight: 500;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  width: 50%;
+  gap: 5px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+.active{
+    border-bottom: 3px solid royalblue;
+}
+.menuItem{
+    padding: 3px 0px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.menuItem:hover::after{
+    opacity: 1;
+}
+

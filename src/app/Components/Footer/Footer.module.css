@@ -1,0 +1,45 @@
+.footer{
+    height : 140px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 0px 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--secondary-color);
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px  rgb(66, 32, 168,0.4);
+    justify-content: space-between;
+    z-index: 1;
+}
+.footer_heading{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.mail, .mobile{
+ font-weight: 500;
+ padding-bottom: 10px;
+ display: flex;
+}
+.mail_image, .mobile_image{
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.mail_image img, .mobile_image img{
+    width: 100%;
+    height: 100%;
+}
+.github_image, .linkedin_image, .codepen_image{
+    height: 30px;
+    width: 30px;
+}
+.mylinks{
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+}

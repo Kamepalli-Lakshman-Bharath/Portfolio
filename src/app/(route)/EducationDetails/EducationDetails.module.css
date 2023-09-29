@@ -1,0 +1,36 @@
+.card {
+  height: 230px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  box-shadow: rgb(66, 32, 168, 0.4) 0px 7px 29px 0px;
+  box-sizing: border-box;
+  padding: 40px 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.card > p {
+  margin-bottom: 5px;
+  font-size: 1.08em;
+}
+
+.title {
+  font-weight: 500;
+  color: var(--third-text-color);
+}
+.heading {
+  margin-bottom: 20px;
+  color: var(--secondary-text-color);
+}
+.details {
+  width: 50%;
+}
+.image {
+  width: 40%;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+}
