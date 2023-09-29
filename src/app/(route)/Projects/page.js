@@ -9,7 +9,7 @@ export default function Projects() {
       <Footer />
       <div className={styles.grid}>
         <div className={styles.card}>
-          <img src="/project-1.png" alt="" />
+          <img src="/Project-1.png" alt="" />
           <div className={styles.card_links}>
             <div>
               <a
@@ -39,7 +39,7 @@ export default function Projects() {
         </div>
 
         <div className={styles.card}>
-          <img src="/project-2.png" alt="" />
+          <img src="/Project-2.png" alt="" />
           <div className={styles.card_links}>
             <div>
               <a
@@ -66,7 +66,7 @@ export default function Projects() {
         </div>
 
         <div className={styles.card}>
-          <img src="/project-3.png" alt="" />
+          <img src="/Project-3.png" alt="" />
           <div className={styles.card_links}>
             <div>
               <a
@@ -93,7 +93,7 @@ export default function Projects() {
         </div>
 
         <div className={styles.card}>
-          <img src="/project-4.png" alt="" />
+          <img src="/Project-4.png" alt="" />
           <div className={styles.card_links}>
             <div>
               <a
@@ -123,7 +123,7 @@ export default function Projects() {
         </div>
 
         <div className={styles.card}>
-          <img src="/project-5.png" alt="" />
+          <img src="/Project-5.png" alt="" />
           <div className={styles.card_links}>
             <div>
               <a
@@ -153,7 +153,7 @@ export default function Projects() {
         </div>
 
         <div className={styles.card}>
-          <img src="/project-6.png" alt="" />
+          <img src="/Project-6.png" alt="" />
           <div className={styles.card_links}>
             <div>
               <a
@@ -182,7 +182,7 @@ export default function Projects() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="/project-7.png" alt="" />
+          <img src="/Project-7.png" alt="" />
           <div className={styles.card_links}>
             <div>
               <a
@@ -211,7 +211,7 @@ export default function Projects() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="/project-8.png" alt="" />
+          <img src="/Project-8.png" alt="" />
           <div className={styles.card_links}>
             <div>
               <a
