@@ -35,7 +35,7 @@ export default function EducationDetails() {
         <p><span className={styles.title}>School</span>: Sri Chaitanya High School, Tenali, Andhra Pradesh.</p>
         <p><span className={styles.title}>Board</span>: Board of Secondary Education.</p>
         <p><span className={styles.title}>CGPA</span>: 9.2</p>
-        <p><span className={styles.title}>Year</span>: 2016.</p>
+        <p><span className={styles.title}>Year</span>: 2017.</p>
         </div>
         <div className={styles.image}> <img src="image-3.jpg" alt="" /></div>
       
